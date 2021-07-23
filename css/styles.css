@@ -1,0 +1,212 @@
+/*************************** Tag Selectors  ***********************************/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h2{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/**************************** Class Selectors  ********************************/
+
+
+/* ********* Title ********* */
+
+.container-fluid{
+  padding: 3%  15%;
+  position: relative;
+  height: 37rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+  padding: 0 7px;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+.btn-download{
+  margin: 1.2rem 0.7rem 1.2rem 0;
+  /* margin: 5% 3% 5% 0; */
+}
+
+.smartfone{
+  width: 276.3px;
+  transform: rotate(25deg);
+  margin-left: 20%;
+}
+
+
+@media (max-width: 1039px) {
+  .container-fluid{
+    height: auto;
+  }
+}
+
+@media (max-width: 991px){
+  .row{
+    text-align: center;
+  }
+}
+
+@media (max-width: 1039px) {
+  .smartfone{
+    transform: rotate(0);
+    position: static;
+  }
+}
+@media (max-width: 991px){
+  .smartfone{
+    margin-left: auto;
+  }
+}
+
+/* ********* Features ********* */
+
+.features-item{
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+/* ********* Testimonials and Press ********* */
+
+.testimonials-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 7% 1% 10%;
+}
+
+.press-img{
+  width: 200px;
+  margin: 1% 2%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* ********* Pricing ********* */
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.col-md-6 button{
+  margin-top: 2.5rem;
+}
+
+/* ********* CTA ********* */
+
+.cta-text{
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  width: 70%;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  .cta-text{
+    width: 75%;
+  }
+}
+
+/* ********* Footer ********* */
+
+.contact-icon{
+  margin: 20px 10px;
+  text-decoration: none;
+  color: #141414;
+}
+
+.copyright{
+  font-size: 0.85em;
+}
+
+@media (max-width: 991px) {
+  #footer{
+    font-size: 1.3rem;
+  }
+}
+
+
+/**************************** Id Selectors  ***********************************/
+
+#title{
+  background-color: #ff4c68
+}
+
+#features{
+  background: white;
+  padding: 12rem 10rem;
+  position: relative;
+}
+
+@media (max-width: 1039px) {
+  #features{
+    position: static;
+  }
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #f8f9fa;
+  padding: 3% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+#pricing{
+  padding: 5rem;
+  text-align: center;
+}
+
+#cta{
+  text-align: center;
+  padding: 4rem 0 9rem;
+  margin-top: 2rem;
+  background-color: #ff4c68
+}
+
+#footer{
+  padding: 12% 0 7%;
+  text-align: center;
